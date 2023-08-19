@@ -1,0 +1,126 @@
+.test
+{
+    width: auto;
+    height: auto;
+    background-color: tomato;
+    
+}
+.join .lap{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+
+}
+
+.over {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(214, 46, 51 , 0.3);
+
+}
+
+.sec{
+    display: none;
+}
+
+.slide .test{
+    background-color: rgba(214, 46, 51 , 0.6);
+    padding: 10px;
+}
+
+.slide .sec{
+    background-color: ccc;
+
+}
+
+
+.hcontact , .fa-bars{
+    z-index: 20;
+}
+
+.content{
+    
+    background-image: url(../img/invitation-2508607__340.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+#days ,#hours ,#minutes ,#seconds
+{
+    padding: 60px;
+    font-size: 30px;
+    color:white;
+    font-weight: bolder;
+    z-index: 20;
+   
+}
+
+.num{
+    color:rgba(214, 46, 51 );
+}
+
+
+
+
+
+li , i{
+    cursor: pointer;
+}
+
+ul{
+    
+    left: 0px;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999999999999;
+    padding-top: 200px;
+    
+    
+}
+
+li {
+list-style-type: none;
+padding-bottom: 20px;
+size: 50px;
+
+
+}
+
+.open
+{
+    z-index: 999999999;
+    left: -200px;
+}
+
+
+.fa-circle-xmark{
+top: 10px;
+   
+   left: -200px;
+    
+}
+
+/* ========================= */
+
+
+.home{
+    background-image: url(../img/events-heavenly-header.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+background-size: cover;
+}
+
+/* ========================== */
